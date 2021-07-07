@@ -9,10 +9,12 @@ public class Vehicle {
     protected boolean is_police;  // indicates if it is a police car
 
 
-    public Vehicle(String name, Integer speed, String color) {
+    public Vehicle() {
+    }
+
+    public Vehicle(String name, String color) {
 
         this.name = name;
-        setSpeed(speed);
         this.color = color;
 
 
@@ -35,6 +37,10 @@ public class Vehicle {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public void setSpeed_limit(int speed_limit) {
+        this.speed_limit = speed_limit;
     }
 
     public String getName() {

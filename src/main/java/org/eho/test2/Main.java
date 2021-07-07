@@ -11,7 +11,8 @@ import org.eho.test2.cars.Vehicle;
 
 class Main {
     public static void main(String[] args) {
-        Vehicle truck1 = new Truck("Kamaz", 60, "green");
+        Truck truck1 = new Truck("Kamaz", 60, "green");
+        truck1.setSpeed_limit(80);
         truck1.getInfo();
     }
 }
