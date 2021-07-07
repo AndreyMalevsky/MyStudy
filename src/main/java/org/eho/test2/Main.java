@@ -6,14 +6,22 @@ up more than 60 and 40 correspondingly. */
 
 package org.eho.test2;
 
+import org.eho.test2.cars.PassengerCar;
 import org.eho.test2.cars.Truck;
 import org.eho.test2.cars.Vehicle;
+
 
 class Main {
     public static void main(String[] args) {
         Truck truck1 = new Truck("Kamaz", 60, "green");
         truck1.setSpeed_limit(80);
         truck1.getInfo();
+        Truck truck2 = new Truck();
+        System.out.println(truck2.unload());
+        System.out.println(truck2.unload("red"));
+        PassengerCar car1 = new PassengerCar("Lada sedan", 50, "baklazhan", 5);
+        car1.getInfo();
+        System.out.println(car1.getCapacity());
     }
 }
 

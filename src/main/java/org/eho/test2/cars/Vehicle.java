@@ -8,7 +8,6 @@ public class Vehicle {
     protected Integer speed; // speed of the vehicle
     protected boolean is_police;  // indicates if it is a police car
 
-
     public Vehicle() {
     }
 
