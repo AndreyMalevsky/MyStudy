@@ -9,13 +9,14 @@ public class Truck extends Vehicle {
         setSpeed(speed);
     }
 
-    public float unload() {
-        return 1;
+    public boolean unload() {
+        return true;
     }
 
-    public float unload(String color) {
-        return 0;
+    public boolean unload(String color) {
+        return false;
     }
+
     public Truck() {
     }
 }

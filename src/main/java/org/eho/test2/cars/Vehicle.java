@@ -16,13 +16,11 @@ public class Vehicle {
         this.name = name;
         this.color = color;
 
-
     }
 
     public void getInfo() {
         System.out.println("Model: " + name +
-                ", color is " + color +
-                ", speed is " + speed +
+                ", color is " + color + ", speed is " + speed +
                 ", speed limit is " + speed_limit);
     }
 

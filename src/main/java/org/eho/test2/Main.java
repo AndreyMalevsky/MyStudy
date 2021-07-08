@@ -8,8 +8,6 @@ package org.eho.test2;
 
 import org.eho.test2.cars.PassengerCar;
 import org.eho.test2.cars.Truck;
-import org.eho.test2.cars.Vehicle;
-
 
 class Main {
     public static void main(String[] args) {

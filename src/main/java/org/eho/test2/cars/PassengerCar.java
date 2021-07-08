@@ -10,7 +10,6 @@ package org.eho.test2.cars;
             this.capacity = capacity;
             setSpeed(speed);
         }
-
         public int getCapacity() {
             return capacity;
         }
