@@ -1,6 +1,6 @@
 package org.eho.test2.cars;
 
-public class Truck extends Vehicle {
+public class Truck extends Vehicle implements Engine {
     public Truck(String name, Integer speed, String color) {
 
         super(name, color);
@@ -18,5 +18,14 @@ public class Truck extends Vehicle {
     }
 
     public Truck() {
+    }
+    @Override
+    public void startEngine() {
+        System.out.println("Engine of " + color + " " + name + " is running");
+    }
+
+    @Override
+    public void turnOnLight() {
+        System.out.println("Light of " + color + " " + name + " is on");
     }
 }

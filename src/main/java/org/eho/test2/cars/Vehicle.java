@@ -1,6 +1,6 @@
 package org.eho.test2.cars;
 
-public class Vehicle {
+public abstract class Vehicle implements Engine, Light {
 
     protected int speed_limit; // max speed allowed
     protected String color; // color
